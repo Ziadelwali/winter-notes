@@ -1,6 +1,6 @@
 /* Offline cache for the trip page. Holds only the ENCRYPTED file —
    the decrypted plan never touches storage. Rebuilt on every publish. */
-const VERSION = 'garda-20260905170433';
+const VERSION = 'garda-20260905170852';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-180.png'];
 
 self.addEventListener('install', function (e) {
