@@ -1,0 +1,11 @@
+# Deny-by-default. This repo publishes to GitHub Pages, so ONLY the two
+# files that are meant to be public may ever be committed.
+#
+# Everything else in this folder — PASSPHRASE.txt, the unencrypted
+# Lake_Garda_Trip_Plan.html, the PDF, every planning note — stays local.
+# Do not add exceptions without thinking about who can read the repo.
+/*
+
+!.gitignore
+!index.html
+!robots.txt
